@@ -53,7 +53,9 @@ No exemplo abaixo, o número **55** foi inserido, e o sistema verificou corretam
 
 No segundo exemplo, o número **100** foi inserido, e o sistema informou que ele **não** pertence à sequência de Fibonacci. A sequência de Fibonacci gerada até **100** também foi exibida.
 
-![Exemplo 2]([https://drive.google.com/file/d/1nHzVQBcjGvYLcCDj_WNQ7gG4ORkhfxz1/view?usp=sharing](https://drive.google.com/file/d/1SkNR3fyFXwqP3xltnwtWCvoMzvKUtKU4/view?usp=sharing))
+![Exemplo 2]([https://drive.google.com/file/d/1SkNR3fyFXwqP3xltnwtWCvoMzvKUtKU4/view](https://drive.google.com/uc?export=view&id=1XXnf81o-Mc4xFBhi758KUPhVMnXyPqMD
+))
+
 
 ---
 
