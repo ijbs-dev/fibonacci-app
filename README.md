@@ -1,7 +1,3 @@
-Aqui está o `README.md` atualizado com a seção de **Exemplos de Uso**, começando pela tela inicial (valor 0), e os links para as imagens corretos.
-
----
-
 # Fibonacci App
 
 Este projeto contém duas partes principais:
@@ -235,7 +231,3 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou env
 ## Licença
 
 Este projeto é distribuído sob a licença MIT.
-
----
-
-Certifique-se de ajustar os caminhos e permissões das imagens compartilhadas no Google Drive para que elas fiquem acessíveis ao público.
