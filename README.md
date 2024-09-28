@@ -37,24 +37,24 @@ Este projeto contém duas partes principais:
 
 Na tela inicial, o valor de entrada é **0**. Aqui, o campo de entrada está vazio e nenhuma verificação foi feita. Esta é a tela padrão do projeto ao ser carregado pela primeira vez.
 
-![Tela Inicial]([https://drive.google.com/file/d/1SkNR3fyFXwqP3xltnwtWCvoMzvKUtKU4/view?usp=sharing](https://drive.google.com/file/d/1XXnf81o-Mc4xFBhi758KUPhVMnXyPqMD/view?usp=sharing))
+![Tela Inicial](https://drive.google.com/uc?export=view&id=1kkJtrXTX8D6qqe9yPBoCQivzwJV66LbU)
 
 ---
 
 ### Exemplo 1: Verificação de um número que pertence à sequência de Fibonacci
 
-No exemplo abaixo, o número **55** foi inserido, e o sistema verificou corretamente que ele pertence à sequência de Fibonacci. A sequência de Fibonacci até **55** é exibida logo abaixo do resultado.
+No exemplo abaixo, o número **89** foi inserido, e o sistema verificou corretamente que ele pertence à sequência de Fibonacci. A sequência de Fibonacci até **89** é exibida logo abaixo do resultado.
 
-![Exemplo 1]([https://drive.google.com/file/d/1XXnf81o-Mc4xFBhi758KUPhVMnXyPqMD/view?usp=sharing](https://drive.google.com/file/d/1nHzVQBcjGvYLcCDj_WNQ7gG4ORkhfxz1/view?usp=sharing))
+![Exemplo 1](https://drive.google.com/uc?export=view&id=1IOJqKiq1Mm2TtE9XtqiPJJM7HygqKL37)
 
 ---
 
 ### Exemplo 2: Verificação de um número que **não** pertence à sequência de Fibonacci
 
-No segundo exemplo, o número **100** foi inserido, e o sistema informou que ele **não** pertence à sequência de Fibonacci. A sequência de Fibonacci gerada até **100** também foi exibida.
+No segundo exemplo, o número **1000** foi inserido, e o sistema informou que ele **não** pertence à sequência de Fibonacci. A sequência de Fibonacci gerada até **1000** também foi exibida.
 
-![Exemplo 2]([https://drive.google.com/file/d/1SkNR3fyFXwqP3xltnwtWCvoMzvKUtKU4/view](https://drive.google.com/uc?export=view&id=1XXnf81o-Mc4xFBhi758KUPhVMnXyPqMD
-))
+![Exemplo 2](https://drive.google.com/uc?export=view&id=1dy09NaqRpkreBRLUrhIFs-ABi39uOk6D)
+
 
 
 ---
@@ -149,59 +149,6 @@ cd fibonacci-app
 
    O frontend estará acessível em `http://localhost:4200`.
 
----
-
-## Estrutura do `.gitignore`
-
-Aqui está o `.gitignore` configurado para ignorar arquivos e diretórios gerados automaticamente:
-
-```plaintext
-# Output compilado
-/dist
-/tmp
-/out-tsc
-/bazel-out
-
-# Node
-/node_modules
-npm-debug.log
-yarn-error.log
-
-# IDEs e editores
-.idea/
-.project
-.classpath
-.c9/
-*.launch
-.settings/
-*.sublime-workspace
-
-# Visual Studio Code
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-.history/*
-
-# Miscellaneous
-/.angular/cache
-.sass-cache/
-/connect.lock
-/coverage
-/libpeerconnection.log
-testem.log
-/typings
-
-# Arquivos de sistema
-.DS_Store
-Thumbs.db
-
-# Permitir o rastreamento da pasta src/app
-!/fibonacci-app-frontend/src/app/
-```
-
----
 
 ## Dependências
 
@@ -223,13 +170,3 @@ Thumbs.db
 2. **Dependências faltando**: Caso tenha problemas ao iniciar o projeto, rode o comando `npm install` nas pastas `fibonacci-app-frontend` e no diretório raiz do projeto.
 
 ---
-
-## Contribuindo
-
-Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar um pull request com melhorias.
-
----
-
-## Licença
-
-Este projeto é distribuído sob a licença MIT.
