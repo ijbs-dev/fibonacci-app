@@ -1,10 +1,8 @@
 <div class="page-container">
-  <!-- Cabeçalho -->
   <header>
     <h1>{{ title }}</h1>
   </header>
 
-  <!-- Verificador de Fibonacci -->
   <main>
     <div class="fibonacci-card">
       <div class="input-container">
@@ -12,10 +10,8 @@
         <button (click)="checkFibonacci()" class="btn">Verificar</button>
       </div>
 
-      <!-- Exibe a mensagem de resultado -->
       <p *ngIf="resultMessage" class="result-message">{{ resultMessage }}</p>
 
-      <!-- Exibe a sequência de Fibonacci gerada até o número -->
       <p *ngIf="fibonacciSequence.length > 0" class="sequence">
         Sequência de Fibonacci até {{ numberInput }}:
         <span class="fibonacci-sequence">{{ fibonacciSequence.join(', ') }}</span>
@@ -23,19 +19,16 @@
     </div>
   </main>
 
-  <!-- Rodapé -->
   <footer>
     <p>&copy; 2024 Verificador de Fibonacci - Desenvolvido por Ismael Jefte</p>
   </footer>
 </div>
 
-<!-- CSS embutido -->
 <style>
-  /* Variáveis de cor */
   :root {
     --primary-color: #3498db;
     --secondary-color: #2c3e50;
-    --background-color: linear-gradient(135deg, #74ebd5, #acb6e5); /* Degradê azul-claro */
+    --background-color: #add8e6;
     --card-bg: #ffffff;
     --success-color: #16a085;
     --error-color: #e74c3c;
@@ -44,24 +37,22 @@
     --footer-text-color: #fff;
   }
 
-  /* Garantir que o fundo preencha toda a tela */
   html, body {
     height: 100%;
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
-    background: var(--background-color); /* Aplicar fundo degradê */
+    background-color: var(--background-color);
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
-  /* Estrutura básica */
   .page-container {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    width: 100%; /* Certifique-se que o conteúdo ocupa toda a largura */
+    width: 100%;
   }
 
   header {
@@ -87,13 +78,13 @@
     padding: 30px;
     background-color: var(--card-bg);
     border-radius: 10px;
-    box-shadow: 0px 6px 12px var(--box-shadow-color);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
     text-align: center;
-    transition: all 0.3s ease;
+    transition: box-shadow 0.3s ease;
   }
 
   .fibonacci-card:hover {
-    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
   }
 
   .input-container {
@@ -109,35 +100,36 @@
     border: 1px solid var(--primary-color);
     border-radius: 8px;
     width: 180px;
-    transition: all 0.3s;
+    background-color: #f0f8ff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
   }
 
   .input-number:focus {
-    border-color: darken(var(--primary-color), 10%);
+    border-color: #2980b9;
     outline: none;
-    box-shadow: 0px 0px 6px rgba(52, 152, 219, 0.5);
+    box-shadow: 0px 6px 12px rgba(52, 152, 219, 0.5);
   }
 
   .btn {
     padding: 12px 20px;
     font-size: 1.1rem;
     color: #fff;
-    background-color: #2980b9; 
+    background-color: #2980b9;
     border: none;
     border-radius: 8px;
     cursor: pointer;
-    box-shadow: 0px 4px 6px rgba(52, 152, 219, 0.5);
+    box-shadow: 0px 8px 16px rgba(52, 152, 219, 0.5);
     transition: background-color 0.3s ease;
-}
+  }
 
-.btn:focus {
+  .btn:focus {
     outline: none;
-}
+  }
 
-.btn:hover {
+  .btn:hover {
     background-color: #2980b9;
-}
-
+    box-shadow: 0px 12px 24px rgba(52, 152, 219, 0.5);
+  }
 
   .result-message {
     font-size: 1.4rem;
@@ -161,7 +153,6 @@
     text-align: left;
   }
 
-  /* Rodapé */
   footer {
     background-color: var(--footer-bg);
     color: var(--footer-text-color);
@@ -178,7 +169,6 @@
     margin: 0;
   }
 
-  /* Responsividade para dispositivos móveis */
   @media (max-width: 768px) {
     .fibonacci-card {
       max-width: 100%;
