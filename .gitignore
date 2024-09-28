@@ -40,3 +40,6 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+
+# Explicitly allow src/app to be tracked
+!/fibonacci-app-frontend/src/app/
